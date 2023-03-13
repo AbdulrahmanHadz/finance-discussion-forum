@@ -1,0 +1,8 @@
+.centeredDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+}

@@ -1,0 +1,1 @@
+import{l as e,m as t}from"./index.51d15672.js";import{g as a}from"./goToPrevious.cf24a95f.js";const c={created(){e(),t("users","logout").then(o=>{console.log(o)}).catch(o=>{console.log(o)}),a(this.$router)}};export{c as default};

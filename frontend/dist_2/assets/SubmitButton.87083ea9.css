@@ -1,0 +1,1 @@
+.text{color:var(--login-form-labels);font-weight:700;font-size:1.125rem;line-height:1.75rem}.button{margin-top:10px;padding:7px 14px;cursor:pointer;border-radius:.375rem}.button:disabled,.button[disabled]{border:1px solid #999999;background-color:#777395;color:#fff;cursor:default}.button:hover:enabled{color:var(--text-accent);background-color:var(--header)}

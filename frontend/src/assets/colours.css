@@ -1,0 +1,24 @@
+:root {
+    --background-colour: #cccccc;
+    --header: #366758;
+    --error: rgb(225 29 72);
+    --success: var(--header);
+    --section-colour: #366758;
+    --card-colour: #DDDBCB;
+    --text: #000000;
+    --header-text: #ffffff;
+    --login-form-labels: #000000;
+    --form-input: #E7FEFE;
+    --text-accent: #ffffff;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text);
+}

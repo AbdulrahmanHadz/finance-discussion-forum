@@ -1,0 +1,38 @@
+.tag-checkbox-div {
+    border: 1px solid black;
+    display: inline-block;
+    flex-direction: row;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 0.5%;
+    border-radius: 0.375rem;
+    background-color: var(--form-input);
+}
+
+.tag-checkbox-div:hover {
+    cursor: pointer;
+}
+
+.tag-checkbox-div:hover {
+    color: var(--text-accent);
+    background-color: #3F617F;
+}
+
+.tag-checkbox-div:has(input:checked) {
+    color: var(--text-accent);
+    background-color: var(--header);
+}
+
+.tag-checkbox-div input {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.tags-container {
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+}
